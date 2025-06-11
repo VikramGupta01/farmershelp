@@ -22,7 +22,7 @@ dotenv.config()
 
 const app =express()
 app.use(cors({
-    origin:["http://localhost:5173","https://farmershelp.onrender.com/api/v1"],
+    origin:["http://localhost:5173","https://farmershelp-phi.vercel.app"],
     method:["GET", "POST", "PUT","PATCH", "DELETE"],
     credentials:true
 }))
